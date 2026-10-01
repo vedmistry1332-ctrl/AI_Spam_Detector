@@ -213,9 +213,10 @@ TF-IDF
 Naive Bayes
 Streamlit
 Building a complete ML application
-Author
 
-Your Name
+------Author
+      VED MISTRY
+      VIDHANG MUNDRA
 
 College Project - AI Spam Message Detector
 
