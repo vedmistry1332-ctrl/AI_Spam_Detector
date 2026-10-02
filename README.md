@@ -132,12 +132,20 @@ git clone https://github.com/your-username/AI_Spam_Detector.git
 Move into the project folder:
 
 cd AI_Spam_Detector
+
+
 Step 2: Install Required Libraries
+
+
+
 
 Run:
 
 python -m pip install -r requirements.txt
 Running the Project
+
+
+
 
 Run the Streamlit application:
 
@@ -149,26 +157,44 @@ Open the URL in your browser.
 
 Example
 
+
+
+
 Enter a message such as:
 
 Congratulations! You have won a free prize. Click the link to claim now.
+
+
+
 
 The application may classify it as:
 
 SPAM
 
+
+
+
 For a normal message such as:
 
 Hey, are we meeting at 5 today?
+
+
+
 
 The application may classify it as:
 
 NOT SPAM
 Model Training
 
+
+
+
 If you want to train the model again, run:
 
 python train_model.py
+
+
+
 
 This will create/update:
 
@@ -176,14 +202,20 @@ model/spam_model.pkl
 model/vectorizer.pkl
 Dataset Conversion
 
+
+
+
 If the original SMSSpamCollection dataset is being used, run:
 
-python convert_dataset.py
+ python convert_dataset.py
 
-This creates:
+ This creates:
 
-dataset/spam.csv
-Requirements
+ dataset/spam.csv
+ Requirements
+
+
+
 
 The main Python libraries used in this project are:
 
@@ -192,6 +224,8 @@ scikit-learn
 streamlit
 joblib
 Future Improvements
+
+
 
 Some possible improvements for the project are:
 
@@ -203,6 +237,9 @@ Improve the user interface
 Deploy the application online
 Add support for multiple languages
 Project Purpose
+
+
+
 
 This project was created for educational purposes to understand:
 
@@ -217,35 +254,5 @@ Building a complete ML application
 ------Author
       VED MISTRY
       VIDHANG MUNDRA
-
-College Project - AI Spam Message Detector
-
-
-### One important thing before uploading to GitHub
-
-Since your project contains trained model files:
-
-```text
-model/spam_model.pkl
-model/vectorizer.pkl
-
-you can upload them to GitHub for this college project so that someone cloning your repository can run app.py without retraining.
-
-Also make sure your requirements.txt contains:
-
-pandas
-scikit-learn
-streamlit
-joblib
-
-Then your GitHub repository will have a clean structure:
-
-AI_Spam_Detector
-│
-├── dataset
-├── model
-├── app.py
-├── convert_dataset.py
-├── train_model.py
-├── requirements.txt
-└── README.md
+      VEDANT ASNIYAWALA
+- AI Spam Message Detector
